@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$1" == 'test' ]; then
+    python tests/tests.py
+else
+    jupyter notebook results.ipynb
+fi
+
+echo "joo $1"

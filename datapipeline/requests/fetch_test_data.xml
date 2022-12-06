@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<wfs:GetFeature
+service="WFS"
+version="1.1.0"
+xmlns:wfs="http://www.opengis.net/wfs"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.1.0/wfs.xsd"
+xmlns:avoindata="http://www.hel.fi/avoindata"
+outputFormat="json">
+<wfs:Query typeName="avoindata:Rakennukset_piste_rekisteritiedot">
+    <wfs:PropertyName>avoindata:i_kerrosala</wfs:PropertyName>
+    <wfs:PropertyName>avoindata:c_kayttark</wfs:PropertyName>
+    <wfs:PropertyName>avoindata:postinumero</wfs:PropertyName>
+    <wfs:PropertyName>avoindata:c_valmpvm</wfs:PropertyName>
+    <wfs:PropertyName>avoindata:i_nkoord</wfs:PropertyName>
+    <wfs:PropertyName>avoindata:i_ekoord</wfs:PropertyName>
+</wfs:Query>
+</wfs:GetFeature>

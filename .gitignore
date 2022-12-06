@@ -1,0 +1,7 @@
+hiekkis/
+docs/
+notes/
+*.db
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
