@@ -27,6 +27,3 @@ def create_decimal_timedata(data):
 
 def match_utility_code(code):
     return utility_db[code]
-
-def kakka():
-    print('kakka')
