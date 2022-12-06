@@ -14,17 +14,14 @@ The code is executed as
 ```
 ./run
 ```
+
 or alternatively
 ```
 bash run
 ```
-or with python
+
+or by creating the database folder manually and running the jupyter notebook
 ```
-<<<<<<< HEAD
 mkdir databases
-<python/python3/'path/to/python'> results.ipynb
-```
-=======
 jupyter notebook results.ipynb
 ```
->>>>>>> 383995114b7b8a88202fa4cbd171e61b69d47a29
