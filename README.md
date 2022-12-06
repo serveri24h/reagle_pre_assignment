@@ -20,5 +20,5 @@ bash run
 ```
 or
 ```
-python3 results.ipynb
+jupyter notebook results.ipynb
 ```
